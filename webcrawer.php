@@ -56,7 +56,7 @@ class webcrawer{
 			return false;
 	}
 	
-	//ÏÂÃæÕâ¸öº¯Êý»ñÈ¡Í¼ÊéµÄ¼ò½é¡£
+	//ä¸‹é¢è¿™ä¸ªå‡½æ•°èŽ·å–å›¾ä¹¦çš„ç®€ä»‹ã€‚
 	public function getInroduction()
 	{
 		#TODO....
@@ -73,7 +73,7 @@ class webcrawer{
 		$this->inroduction = $match2[1];
 		return true;
 	}
-	//ÏÂÃæÕâ¸öº¯Êý»ñÈ¡Í¼ÊéµÄ×÷Õß..
+	//ä¸‹é¢è¿™ä¸ªå‡½æ•°èŽ·å–å›¾ä¹¦çš„ä½œè€…..
 	public function getAuthor()
 	{
 		#TODO...
@@ -90,8 +90,5 @@ class webcrawer{
 		return $this->picpath;
 	}
 }
-$test = new webcrawer("»ð³µÉÏµÄÅ®º¢");
-$test->getURL();
-echo $test->getAuthor();
 
 ?>
